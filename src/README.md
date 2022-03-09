@@ -18,4 +18,5 @@ The folders here follows very simple naming convention. A brief description of t
 
 7. src/solana-server: This is where all the solana code is held. I went with a server client archi because solana's libraries have issues with CRA (or create react app) the solutions that they provide did not work for me on a burner app, hence I did not wanted to use them over at client side. (The issue with imports, since Solanafiles are in the extention, .mjs)
 
+Link to Google Collab -> https://colab.research.google.com/drive/1RmWxNd7eSbkZGs9ZgXVQjVZ6k9RK3eHU#scrollTo=6zLxeZPCFnS-
 
