@@ -1,0 +1,39 @@
+.user-container{
+     margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 30%;
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.carousel-container{
+    justify-content: space-between;
+    display: flex;
+}
+
+.text{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.form-container{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 30%;
+    /* width: 30%; */
+    margin-bottom: 200px ;
+    padding-bottom:200px ;
+    
+
+
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+}

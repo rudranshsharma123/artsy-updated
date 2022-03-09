@@ -1,0 +1,77 @@
+#page {
+	background-color: black;
+	background: coral;
+}
+body {
+	height: 100vh;
+	background-color: #1a202c !important;; 
+	/* overflow: scroll; */
+	text-align: center; /* background: black; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	justify-content: center;
+	display: flex;
+}
+#heading {
+	color: white;
+}
+
+#button {
+	color: #ffffff;
+	box-shadow: 100px 10px 20px -10px var(--shadow-color-nebula);
+	background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    height: 10vh;
+    width: 100vh;
+}
+#login-text{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#footer{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -10vh;
+    padding-bottom: 100px;
+}
+
+#heading-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#header {
+	/* margin: 100px; */
+
+	font-weight: bold;
+	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px 0 30px;
+}
+
+#heading {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+#text {
+	background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+	color: #9d8eee;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-box-decoration-break: clone;
+}
